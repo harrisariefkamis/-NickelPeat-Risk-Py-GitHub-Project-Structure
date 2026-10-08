@@ -74,6 +74,8 @@ Tim peatfr (Mahdiyasa et al. 2025) — Fondasi metodologi PFVI
 markdown
 # 🏗️ Arsitektur Sistem
 
+---
+text
 ## 1. Diagram Arsitektur
 ┌─────────────────────────────────────────────────────────────────────┐
 │ LAPISAN PRESENTASI │
