@@ -1,0 +1,20 @@
+
+## 2. Komponen Utama
+
+### 2.1 Ingestion Layer
+- **MQTT Subscriber**: menerima data dari sensor IoT
+- **REST Poller**: mengambil data dari BMKG, NASA FIRMS, BRGM
+- **Database Writer**: menyimpan ke TimescaleDB
+
+### 2.2 Processing Layer
+- **Imputation Service**: mengisi missing values
+- **Forecasting Service**: ARIMA/LSTM/GRU
+- **Risk Engine**: PFVI, NDVI-Nickel
+- **Fusion Service**: IRKT + Bayesian Network
+
+### 2.3 Delivery Layer
+- **FastAPI**: REST + WebSocket
+- **Streamlit**: dashboard admin
+- **Flutter**: mobile + web
+
+## 3. Alur Data
