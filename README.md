@@ -1,4 +1,4 @@
-# "NickelPeat Risk Py"
+# NickelPeat Risk Py
 
 Berikut deskripsi proyek dalam beberapa format yang dapat Anda gunakan sesuai kebutuhan (GitHub, proposal, paper, atau pitch deck).
 
